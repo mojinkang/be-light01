@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BELT 문의</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Pretendard&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">BELT</div>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="about.html">소개</a>
+      <a href="vision-house.html">비전하우스</a>
+      <a href="program.html">프로그램</a>
+      <a href="story.html">스토리</a>
+      <a href="contact.html" class="active">문의</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>문의하기</h1>
+    <p>BELT 사역과 함께 동역하거나 궁금한 점을 남겨주세요.</p>
+  </section>
+
+  <main>
+    <!-- CONTACT FORM -->
+    <section class="contact-form">
+      <h2>문의 폼</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="name">이름</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">이메일</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="category">문의 유형</label>
+          <select id="category" name="category" required>
+            <option value="">선택하세요</option>
+            <option value="program">프로그램 문의</option>
+            <option value="partnership">후원 / 동역 문의</option>
+            <option value="media">미디어 / 보도 관련</option>
+            <option value="other">기타</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">메시지</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">문의 보내기</button>
+      </form>
+    </section>
+
+    <!-- SUPPORT SECTION -->
+    <section class="support">
+      <h2>후원 & 동역 안내</h2>
+      <p>BELT의 사역은 사랑과 기도로 세워집니다.<br>함께하는 모든 분이 사명의 파트너입니다.</p>
+      <div class="support-links">
+        <a href="#" class="support-card">
+          <h3>파트너십</h3>
+          <p>BELT 사역 네트워크에 함께하세요.</p>
+        </a>
+        <a href="#" class="support-card">
+          <h3>기도 동역</h3>
+          <p>사역자와 리더들을 위해 중보해주세요.</p>
+        </a>
+        <a href="#" class="support-card">
+          <h3>헌금 안내</h3>
+          <p>헌신으로 세대를 섬기는 일에 동참하세요.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- SOCIAL SECTION -->
+    <section class="social">
+      <h2>연결하기</h2>
+      <div class="social-links">
+        <a href="https://instagram.com/" target="_blank">Instagram</a>
+        <a href="https://notion.so/" target="_blank">Notion</a>
+        <a href="https://youtube.com/" target="_blank">YouTube</a>
+        <a href="mailto:belt@seoulcitychurch.com">Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 BELT Project | belt@seoulcitychurch.com</p>
+  </footer>
+</body>
+</html>

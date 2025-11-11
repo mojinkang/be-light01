@@ -1,0 +1,185 @@
+/* 페이지 헤더 영역 */
+body {
+  margin: 0;
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  background: #F8F8F5;
+  color: #1B2A41;
+  line-height: 1.6;
+}
+
+/* 헤더 */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1B2A41;
+  color: white;
+  padding: 16px 40px;
+  position: sticky;
+  top: 0;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+
+.nav a:hover, .nav a.active {
+  color: #2E8B8B;
+}
+
+.page-hero {
+  background: linear-gradient(to right, #1a1a1a, #2e2e2e);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.page-hero h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.page-hero p {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+/* 정체성 선언문 */
+.identity {
+  padding: 80px 10%;
+  background: #fff;
+  text-align: center;
+}
+
+.identity h2 {
+  font-size: 1.6rem;
+  margin-bottom: 24px;
+}
+
+.identity-table table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.identity-table th, .identity-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.identity-table th {
+  background: #f8f8f8;
+  width: 150px;
+  font-weight: 600;
+}
+
+.identity-desc {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* 사명경영 원리 */
+.mission {
+  background: #f7f7f7;
+  padding: 80px 10%;
+}
+
+.mission-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.mission-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.mission-image img {
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* 핵심가치 */
+.core-values {
+  padding: 80px 10%;
+  text-align: center;
+  background: #fff;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.value-card {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.value-card h3 {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+/* 팀 구성 */
+.team {
+  padding: 80px 10%;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.member-card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+.member-card img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.member-card h4 {
+  margin: 8px 0 4px;
+  font-size: 1.1rem;
+}
+
+.member-card p {
+  color: #666;
+  font-size: 0.9rem;
+}
